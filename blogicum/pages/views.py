@@ -11,7 +11,7 @@ class Rules(TemplateView):
 
 
 def page_not_found(request, exception):
-    """Обработка ошибки 404."""
+    """Обработка  ошибки 404."""
     return render(request, 'pages/404.html', status=404)
 
 
